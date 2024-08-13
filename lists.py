@@ -25,3 +25,37 @@ print('--'*10)
 list1=[1,2,3,4,5,6,7,8,9,10]
 for i in range(1,len(list1),2):
   print(list1[i])
+print('--'*10)
+for list_element in list1:
+  if list_element%2==0:
+    print(f'even number:{list_element}')
+print('--'*10)
+#how to add element to list
+list_var1=[]
+print(list_var1,len(list_var1))
+print('--'*10)
+#staticly addig element to the list:code mai gayera direct element add garne 
+#dynamically adding element to the list 
+list_var1.append(10)
+list_var1.append(20)
+list_var1.append(30)
+print(list_var1,len(list_var1))
+print('--'*10)
+list_var2=[]
+for an_element in range(1,10):
+  list_var2.append(an_element)
+print(list_var2,len(list_var2))
+print('--'*10)
+#task: create a list of even numbers 
+list2=[]
+for even_list in range(2,100,2):
+  list2.append(even_list)
+print(list2,len(list2))
+print('--'*10)
+#alternate
+even_list=[]
+for element in range(1,101):
+  if element%2==0:
+    even_list.append(element)
+print(list2,len(list2))
+print('--'*10)
