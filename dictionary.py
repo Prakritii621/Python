@@ -26,3 +26,9 @@ value_list=['red fruit','toy','meow machine']
 #dict() keywor converts into dictionary
 dictionary_val2=dict(zip(list_keys,value_list))#zip merges the values number of keys nad values need to be same 
 print(dictionary_val2)
+#2: using update
+dict_var={'key1':20,'key2':30}
+
+print('before update',dict_var)
+dict_var.update({'key3':40})
+print('after update',dict_var)
